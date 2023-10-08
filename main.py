@@ -1,9 +1,10 @@
 import validation
 
-def pedirEdad ():
+def pedirDatos ():
+    name = input("Regalame su nombre, por favor: ")
     edad = int(input("Por favor ingrese su edad: "))
-    validation.eage(edad)
+    validation.eage(edad, name)
 
 
 if __name__ == '__main__':
-    pedirEdad()
+    pedirDatos()

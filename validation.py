@@ -1,5 +1,5 @@
-def eage (num):
+def eage (num, name):
     if num <= 21:
-        print("Lo siento, no puedes ingresar porque eres menor de edad")
+        print(f"Lo siento {name}, no puedes ingresar porque eres menor de edad.")
     else:
-        print("Puedes ingresar :) ")
+        print(f"Bienvenid@ {name}, puedes ingresar. :) ")
